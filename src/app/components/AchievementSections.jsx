@@ -34,18 +34,18 @@ const list = [
 const AchievementSections = () => {
   return (
     <div className="py-8 px-4  xl:gap-16 sm:py-16">
-      <div className="border border-[#33353F] rounded-md py-8 px-17 flex flex-row items-center justify-around">
+      <div className="overflow-auto border border-[#33353F] rounded-md py-8 px-17 flex flex-row items-center justify-around">
         {list.map((item, index) => (
           <div
             key={index}
             className="flex flex-col items-center justify-center mx-4"
           >
-            <h2 className="text-4xl font-bold text-white flex flex-row">
+            <h2 className="text-4xl md:text-s font-bold text-white flex flex-row">
                 <AnimatedNumbers
                     includeComma
                     animateToNumber={parseInt(item.value)}
                     locale="en-US"
-                    className="text-white text-4cl font-bold"
+                    className="text-white md:text-s text-4xl font-bold"
                     config={((_, index)=>{
                         return {
                             mass: 1,

@@ -41,6 +41,7 @@ const HeroSection = () => {
                 "Javascript specialist",
                 1000,
               ]}
+              className="text-white"
               wrapper="span"
               speed={50}
               repeat={Infinity}
