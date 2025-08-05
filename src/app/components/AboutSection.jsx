@@ -7,7 +7,7 @@ import Link from "next/link";
 const TAB_DATA=[
     {
         title: "Skills",
-        id:'skills',
+        id:"skills",
         content: (
           <ul className="list-disc pl-5">
             <li>React.js</li>
@@ -21,14 +21,14 @@ const TAB_DATA=[
     },
     {
         title: "Education",
-        id:'education',
+        id:"education",
         content: (
-          <p>Bachelor's in Computer Engineering from Charusat University</p>
+          <p>Bachelor’s in Computer Engineering from Charusat University</p>
         ),
     },
     {
         title: "Certifications",
-        id:'certifications',
+        id:"certifications",
         content: (
           <ul>
             <li className="underline"><Link href={'https://www.credly.com/badges/45fdca17-2b67-4bb4-998d-296776e505c0/public_url'}>AWS Certified Cloud Practitioner</Link></li>
@@ -51,7 +51,7 @@ const AboutSection = () => {
   return (
     <section className="text-white ">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16">
-        <Image src={"/images/PcGhibli.png"} width={600} height={500} />
+        <Image src={"/images/PcGhibli.png"} alt="image1" width={600} height={500} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white- mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
