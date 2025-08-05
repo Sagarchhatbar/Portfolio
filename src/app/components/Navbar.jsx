@@ -6,8 +6,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
 
 const navLinks = [
-  { href: "#Achievements", title: "Achievements" },
-  { href: "#About", title: "About" },
+  { href: "#about", title: "About" },
   { href: "#contact", title: "Contact" },
 ];
 
